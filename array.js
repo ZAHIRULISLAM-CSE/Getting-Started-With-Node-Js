@@ -20,3 +20,10 @@ console.log(array);
 
 array.splice(2, 0, 10000);
 console.log(array);
+
+//slice an element
+
+var part=array.slice(2,4)
+console.log(part);
+//but this does not change the array element Ex:
+console.log(array);//same as previous array
